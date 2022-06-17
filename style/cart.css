@@ -1,0 +1,95 @@
+#cartimg{
+    height: 340px;
+    width: 100%;
+    border: 1px solid black;
+    /* background-image:image-set("pic1.png"); */
+    background-attachment:fixed;
+    background-image: url("https://media.istockphoto.com/photos/drink-lime-and-mint-selective-focus-food-picture-id1067136060?k=20&m=1067136060&s=612x612&w=0&h=9u2ZAdf82_-rneod-qpSCWBDTZKe9kWvGX3zH8Y4-F8=");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+
+
+
+
+#cartbody{
+    height: auto;
+    width: 60%;
+     margin: auto; 
+    /* border: 1px solid black;  */
+    padding:80px;
+    
+}
+
+#cart_prod{
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+#cartbtn{
+    height: 40px;
+    width:190px;
+    /* padding: 20px; */
+    /* margin-top: -54px; */
+    /* text-align: center; */
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    font-size: 18px;
+    margin-top: 15px;
+    
+  }
+
+  #cartbody >table >thead >tr{
+
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(23, 19, 31);
+    font-size: 20px;
+  }
+
+
+  #cartbody >table >tbody >tr>td{
+    border: 1xp solid black;
+  }
+  .cart_box3 >tr{
+    border: 1px solid black;
+  }
+  .cart_box3:hover{
+    cursor: pointer;
+  }
+
+ .cart_box3 .img{
+    height: 60%;
+    width: 60%;
+    margin-left:15%;
+  }  
+
+  #totalprice{
+    font-size: 24px;
+    margin-left: 28%;
+    margin-bottom: 20px;
+  }
+
+  #purchasebtn{
+    padding: 15px;
+    background-color: red;
+    color: white;
+    margin-left: 28%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  #purchasebtn:hover{
+    cursor: pointer;
+  }
+

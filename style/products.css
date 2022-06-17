@@ -1,0 +1,78 @@
+#products_box1{
+    height: 340px;
+    width: 100%;
+    border: 1px solid black;
+    /* background-image:image-set("pic1.png"); */
+    background-attachment:fixed;
+    background-image: url("https://media.istockphoto.com/photos/drink-lime-and-mint-selective-focus-food-picture-id1067136060?k=20&m=1067136060&s=612x612&w=0&h=9u2ZAdf82_-rneod-qpSCWBDTZKe9kWvGX3zH8Y4-F8=");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+
+#products_box2{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+#products_box2_a{
+    height: 100%;
+    width: 30%;
+    margin-top: 20px;
+
+
+}
+#products_box2_a >div >input{
+    height: 35px;
+    width:80%;
+    border-radius: 20px;
+}
+#procategory >div{
+    font-size: 18px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+#products_box2_b{
+    height: 100%;
+    width: 70%;
+    margin-top: 20px;
+
+}
+#showres{
+    height: 35px;
+    width:80%;
+    border-radius: 20px; 
+    border: 1px solid black;
+    margin-bottom: 40px;
+    text-align: center
+}
+#prodcontain{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: auto;
+}
+
+#prodcontain .probox{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+    text-align: center;padding: 10px;
+    box-sizing: border-box;
+
+}
+
+#prodcontain .probox .img{
+    height: 230px;
+    width: 80%;
+    border-radius: 15px;
+}
+#prodcontain .probox .probtn{
+    height: auto;
+    width: auto;
+    color: white;
+    background-color: red;
+    padding: 13px;
+    border-radius: 15px;
+}

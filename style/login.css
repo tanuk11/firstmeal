@@ -1,0 +1,78 @@
+#logimg{
+    height: 340px;
+    width: 100%;
+    border: 1px solid black;
+    /* background-image:image-set("pic1.png"); */
+    background-attachment:fixed;
+    background-image: url("https://media.istockphoto.com/photos/drink-lime-and-mint-selective-focus-food-picture-id1067136060?k=20&m=1067136060&s=612x612&w=0&h=9u2ZAdf82_-rneod-qpSCWBDTZKe9kWvGX3zH8Y4-F8=");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+}
+/* body{
+    height: 100%;
+    width: 100%;
+} */
+body{
+    background-attachment:fixed;
+    
+
+    background-repeat: no-repeat;
+    background-position-y: 150px;
+    /* background-position-x:300px; */
+
+}
+
+#logbody{
+    height: auto;
+    width: 60%;
+     margin: auto; 
+    /* border: 1px solid black;  */
+    padding:10px;
+    
+}
+#logbody >h1{
+    font-size: 45px;
+}
+#user_login{
+    height: auto;
+    width: 100%;
+    /* border: 1px solid red; */
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.user_data{
+    padding: 10px;
+}
+
+#user_email {
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    /* padding: 10px; */
+}
+
+#user_pass {
+    height: 50px;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    /* padding: 10px; */
+}
+
+
+
+#loginbtn{
+  height: 40px;
+  width:120px;
+  background-color: red;
+  color: white;
+  border-radius: 20px;
+  font-size: 18px;
+  
+}
+#user_click{
+    padding: 10px;
+}
